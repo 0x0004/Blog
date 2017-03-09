@@ -16,7 +16,7 @@ Blog采用结构清晰的MVC模式来设计开发
 如果你在部署和使用过程中有疑问，请给作者留言：
 <br/>作者个人博客网站：http://deepdark.cc
 <br/>微博：http://weibo.com/geeksunc
-<br/>知乎：https://www.zhihu.com/people/powerchao
+<br/>知乎：https://www.zhihu.com/people/0x0004
 ##Demo
 [0x0004's blog](deepdark.cc) is powered by Blog
 ##Dependency
@@ -34,22 +34,11 @@ Blog采用结构清晰的MVC模式来设计开发
 * SQLAlchemy
 
 ##How to run it ?
-```
-(sudo) apt-get install python-virtualenv
-```
-```
-~/Blog# virtualenv venv
-```
-```
-~/Blog# source venv/bin/activate
-```
-```
-~/Blog# pip install -r requirements/common.txt
-```
+
 ```
 ~/Blog# python manage.py deploy product
 ```
 ```
-~/Blog# gunicorn --workers 4 manage:app -b 0.0.0.0:80
+~/Blog# gunicorn --workers 4 manage:app -b 127.0.0.1:8080
 ```
 ###Enjoy it.:coffee::lollipop:
