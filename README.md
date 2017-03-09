@@ -36,7 +36,7 @@ Blog采用结构清晰的MVC模式来设计开发
 ##How to run it ?
 
 ```
-~/Blog# python manage.py deploy product
+~/Blog# python manage.py 
 ```
 ```
 ~/Blog# gunicorn --workers 4 manage:app -b 127.0.0.1:8080
