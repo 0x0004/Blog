@@ -23,13 +23,12 @@ Blog采用结构清晰的MVC模式来设计开发
 ###Backend
 * Flask  
     * Flask-script
-    * Flask-Login
+    * Flask-login
     * Flask-WTF
     * Flask-SQLAlchemy
-    * Flask-Migrate
-    * Flask-WTF
-    * Flask-Bootstrap
-    * Flask-Moment
+    * Flask-migrate
+    * Flask-bootstrap
+    * Flask-moment
 * WTForms
 * SQLAlchemy
 
