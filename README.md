@@ -10,11 +10,11 @@
 `Blog采用结构清晰的MVC模式来设计开发`
 ## 3.技术支持
 如果你在部署和使用过程中有疑问，请给作者留言：
-<br/>作者个人博客网站：http://deepdark.cc
+<br/>作者个人博客网站：http://deepdark.cc:2048
 <br/>微博：http://weibo.com/geeksunc
 <br/>知乎：https://www.zhihu.com/people/0x0004
 ## Demo
-[0x0004's blog](deepdark.cc) is powered by Blog
+[0x0004's blog](deepdark.cc:2048) is powered by Blog
 ## Dependency
 ### Backend
 * Flask  
